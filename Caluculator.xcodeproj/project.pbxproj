@@ -12,6 +12,7 @@
 		8B52D1221E83248D0054B241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52D1201E83248D0054B241 /* Main.storyboard */; };
 		8B52D1241E83248D0054B241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B52D1231E83248D0054B241 /* Assets.xcassets */; };
 		8B52D1271E83248D0054B241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B52D1251E83248D0054B241 /* LaunchScreen.storyboard */; };
+		8B98D72C1E8435B8006B9CD6 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B98D72B1E8435B8006B9CD6 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8B52D1231E83248D0054B241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B52D1261E83248D0054B241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B52D1281E83248E0054B241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B98D72B1E8435B8006B9CD6 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8B52D11B1E83248D0054B241 /* Caluculator */ = {
 			isa = PBXGroup;
 			children = (
+				8B98D72B1E8435B8006B9CD6 /* CalculatorBrain.swift */,
 				8B52D11C1E83248D0054B241 /* AppDelegate.swift */,
 				8B52D11E1E83248D0054B241 /* ViewController.swift */,
 				8B52D1201E83248D0054B241 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B98D72C1E8435B8006B9CD6 /* CalculatorBrain.swift in Sources */,
 				8B52D11F1E83248D0054B241 /* ViewController.swift in Sources */,
 				8B52D11D1E83248D0054B241 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				8B52D12D1E83248E0054B241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
